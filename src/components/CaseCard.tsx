@@ -9,6 +9,7 @@ interface CaseCardProps {
   description: string;
   result: string;
   metric: string;
+  image?: string;
 }
 
 export function CaseCard({
@@ -18,10 +19,23 @@ export function CaseCard({
   description,
   result,
   metric,
+  image,
 }: CaseCardProps) {
   return (
     <Card className="overflow-hidden transition-all hover:-translate-y-1 hover:shadow-md">
-      <CardHeader className="bg-muted/40">
+      {image && (
+        <div className="aspect-[4/3] overflow-hidden">
+          <img
+            src={image}
+            alt={title}
+            loading="lazy"
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            width={512}
+            height={384}
+          />
+        </div>
+      )}
+      <CardHeader className={image ? "" : "bg-muted/40"}>
         <div className="flex items-center justify-between">
           <span className="font-heading text-sm font-semibold text-foreground">{client}</span>
           <Badge variant="secondary">{category}</Badge>
