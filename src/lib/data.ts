@@ -8,6 +8,11 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
+import portfolio1 from "@/assets/images/portfolio-1.jpg";
+import portfolio2 from "@/assets/images/portfolio-2.jpg";
+import portfolio3 from "@/assets/images/portfolio-3.jpg";
+import portfolio4 from "@/assets/images/portfolio-4.jpg";
+
 export interface Service {
   icon: LucideIcon;
   title: string;
@@ -72,7 +77,7 @@ export const portfolioCases: PortfolioCase[] = [
       "Restruturamos campanhas de Google Shopping e Performance Max, otimizando orçamento e segmentação de público.",
     result: "+187%",
     metric: "aumento no ROAS em 6 meses",
-    image: "/src/assets/images/portfolio-1.jpg",
+    image: portfolio1,
   },
   {
     client: "Clínica Bem-Estar",
@@ -82,7 +87,7 @@ export const portfolioCases: PortfolioCase[] = [
       "Criamos uma estratégia de SEO local e conteúdo que aumentou a visibilidade da clínica nas buscas da região.",
     result: "+340%",
     metric: "de aumento no tráfego orgânico",
-    image: "/src/assets/images/portfolio-3.jpg",
+    image: portfolio3,
   },
   {
     client: "SaaS ControlePro",
@@ -92,7 +97,7 @@ export const portfolioCases: PortfolioCase[] = [
       "Campanhas no LinkedIn Ads combinadas com landing pages otimizadas e automação de nutrição por e-mail.",
     result: "-42%",
     metric: "redução no Custo por Lead qualificado",
-    image: "/src/assets/images/portfolio-4.jpg",
+    image: portfolio4,
   },
   {
     client: "Restaurante Sabor & Arte",
@@ -102,7 +107,7 @@ export const portfolioCases: PortfolioCase[] = [
       "Reformulação de identidade visual, calendário de conteúdo e ações com influenciadores locais.",
     result: "+12k",
     metric: "novos seguidores em 3 meses",
-    image: "/src/assets/images/portfolio-2.jpg",
+    image: portfolio2,
   },
 ];
 
