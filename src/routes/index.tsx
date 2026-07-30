@@ -7,6 +7,7 @@ import { ServiceCard } from "@/components/ServiceCard";
 import { CaseCard } from "@/components/CaseCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { services, portfolioCases, testimonials, stats } from "@/lib/data";
+import heroHome from "@/assets/images/hero-home.jpg";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -31,7 +32,7 @@ function HomePage() {
         description="Combinamos estratégia, dados e criatividade para atrair, converter e fidelizar clientes. Da primeira impressão à venda, a DMX acompanha cada passo do seu crescimento."
         primaryCta={{ label: "Solicitar proposta", to: "/contato" }}
         secondaryCta={{ label: "Ver portfólio", to: "/portfolio" }}
-        image="/src/assets/images/hero-home.jpg"
+        image={heroHome}
       />
 
       {/* Stats */}

@@ -4,6 +4,7 @@ import { ArrowRight, Target, Users, Lightbulb, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { HeroSection } from "@/components/HeroSection";
 import { stats } from "@/lib/data";
+import sobreImage from "@/assets/images/sobre.jpg";
 
 export const Route = createFileRoute("/sobre")({
   component: AboutPage,
@@ -27,7 +28,7 @@ function AboutPage() {
         title="Quem somos"
         description="A DMX Web Marketing nasceu da vontade de fazer marketing digital de forma mais inteligente, humana e orientada a resultados."
         primaryCta={{ label: "Trabalhar com a DMX", to: "/contato" }}
-        image="/src/assets/images/sobre.jpg"
+        image={sobreImage}
       />
 
       {/* Story */}
