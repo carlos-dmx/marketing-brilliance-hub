@@ -31,6 +31,7 @@ function HomePage() {
         description="Combinamos estratégia, dados e criatividade para atrair, converter e fidelizar clientes. Da primeira impressão à venda, a DMX acompanha cada passo do seu crescimento."
         primaryCta={{ label: "Solicitar proposta", to: "/contato" }}
         secondaryCta={{ label: "Ver portfólio", to: "/portfolio" }}
+        image="/src/assets/images/hero-home.jpg"
       />
 
       {/* Stats */}
@@ -102,6 +103,7 @@ function HomePage() {
                 description={item.description}
                 result={item.result}
                 metric={item.metric}
+                image={item.image}
               />
             ))}
           </div>

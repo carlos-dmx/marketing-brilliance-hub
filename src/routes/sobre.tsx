@@ -27,6 +27,7 @@ function AboutPage() {
         title="Quem somos"
         description="A DMX Web Marketing nasceu da vontade de fazer marketing digital de forma mais inteligente, humana e orientada a resultados."
         primaryCta={{ label: "Trabalhar com a DMX", to: "/contato" }}
+        image="/src/assets/images/sobre.jpg"
       />
 
       {/* Story */}
