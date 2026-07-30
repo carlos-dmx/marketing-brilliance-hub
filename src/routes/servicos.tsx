@@ -6,6 +6,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Link } from "@tanstack/react-router";
 import { services } from "@/lib/data";
+import servicosImage from "@/assets/images/servicos.jpg";
 
 export const Route = createFileRoute("/servicos")({
   component: ServicesPage,
@@ -29,6 +30,7 @@ function ServicesPage() {
         title="Soluções completas de marketing digital"
         description="Do primeiro contato à fidelização, oferecemos serviços integrados que cobrem todas as etapas do crescimento da sua marca."
         primaryCta={{ label: "Falar com um especialista", to: "/contato" }}
+        image={servicosImage}
       />
 
       <section className="bg-background py-20 sm:py-24">
