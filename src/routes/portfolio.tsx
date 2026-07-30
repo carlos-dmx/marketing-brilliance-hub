@@ -42,6 +42,7 @@ function PortfolioPage() {
                 description={item.description}
                 result={item.result}
                 metric={item.metric}
+                image={item.image}
               />
             ))}
           </div>
