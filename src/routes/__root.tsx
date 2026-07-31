@@ -78,15 +78,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "DMX Web Marketing — Agência de Marketing Digital" },
-      { name: "description", content: "DMX Web Marketing é uma agência de marketing digital especializada em tráfego pago, SEO, social media, branding e automação. Transformamos cliques em clientes." },
-      { name: "author", content: "DMX Web Marketing" },
-      { property: "og:title", content: "DMX Web Marketing — Agência de Marketing Digital" },
+      { title: "Educarium — Agência de Marketing Digital" },
+      { name: "description", content: "Educarium é uma agência de marketing digital especializada em tráfego pago, SEO, social media, branding e automação. Transformamos cliques em clientes." },
+      { name: "author", content: "Educarium" },
+      { property: "og:title", content: "Educarium — Agência de Marketing Digital" },
       { property: "og:description", content: "Transformamos cliques em clientes com estratégia, criatividade e dados." },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "DMX Web Marketing" },
+      { property: "og:site_name", content: "Educarium" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@dmxwebmarketing" },
+      { name: "twitter:site", content: "@educarium" },
     ],
     links: [
       {
@@ -104,10 +104,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "DMX Web Marketing",
+          name: "Educarium",
           description: "Agência de marketing digital especializada em tráfego pago, SEO, social media, branding e automação.",
           url: "/",
-          email: "contato@dmxwebmarketing.com.br",
+          email: "contato@educarium.com.br",
           telephone: "+5511999999999",
           address: {
             "@type": "PostalAddress",

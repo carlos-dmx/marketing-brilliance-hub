@@ -9,10 +9,10 @@ export const Route = createFileRoute("/contato")({
   component: ContactPage,
   head: () => ({
     meta: [
-      { title: "Contato — DMX Web Marketing" },
-      { name: "description", content: "Entre em contato com a DMX Web Marketing. Solicite uma proposta personalizada ou tire suas dúvidas sobre marketing digital." },
-      { property: "og:title", content: "Contato — DMX Web Marketing" },
-      { property: "og:description", content: "Fale com a DMX Web Marketing e solicite uma proposta personalizada." },
+      { title: "Contato — Educarium" },
+      { name: "description", content: "Entre em contato com a Educarium. Solicite uma proposta personalizada ou tire suas dúvidas sobre marketing digital." },
+      { property: "og:title", content: "Contato — Educarium" },
+      { property: "og:description", content: "Fale com a Educarium e solicite uma proposta personalizada." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/contato" },
     ],
@@ -33,10 +33,10 @@ function ContactPage() {
           <div className="grid gap-12 lg:grid-cols-2">
             <div>
               <h2 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-                Fale com a DMX
+                Fale com a Educarium
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Quer saber como a DMX pode ajudar sua empresa a crescer? Nos conte um pouco sobre seu projeto e retornaremos com uma proposta alinhada aos seus objetivos.
+                Quer saber como a Educarium pode ajudar sua empresa a crescer? Nos conte um pouco sobre seu projeto e retornaremos com uma proposta alinhada aos seus objetivos.
               </p>
 
               <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -58,7 +58,7 @@ function ContactPage() {
                     </div>
                     <div>
                       <p className="font-heading text-sm font-semibold text-foreground">E-mail</p>
-                      <p className="mt-1 text-sm text-muted-foreground">contato@dmxwebmarketing.com.br</p>
+                      <p className="mt-1 text-sm text-muted-foreground">contato@educarium.com.br</p>
                     </div>
                   </CardContent>
                 </Card>
