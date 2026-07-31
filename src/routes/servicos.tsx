@@ -12,9 +12,9 @@ export const Route = createFileRoute("/servicos")({
   component: ServicesPage,
   head: () => ({
     meta: [
-      { title: "Serviços — DMX Web Marketing" },
-      { name: "description", content: "Conheça os serviços da DMX Web Marketing: tráfego pago, SEO, social media, branding, automação e analytics. Soluções completas para crescer online." },
-      { property: "og:title", content: "Serviços — DMX Web Marketing" },
+      { title: "Serviços — Educarium" },
+      { name: "description", content: "Conheça os serviços da Educarium: tráfego pago, SEO, social media, branding, automação e analytics. Soluções completas para crescer online." },
+      { property: "og:title", content: "Serviços — Educarium" },
       { property: "og:description", content: "Tráfego pago, SEO, social media, branding, automação e analytics para escalar sua marca." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/servicos" },

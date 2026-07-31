@@ -13,9 +13,9 @@ export const Route = createFileRoute("/")({
   component: HomePage,
   head: () => ({
     meta: [
-      { title: "DMX Web Marketing — Agência de Marketing Digital" },
+      { title: "Educarium — Agência de Marketing Digital" },
       { name: "description", content: "Transformamos cliques em clientes. Estratégias de tráfego pago, SEO, social media, branding e automação para escalar seu negócio." },
-      { property: "og:title", content: "DMX Web Marketing — Agência de Marketing Digital" },
+      { property: "og:title", content: "Educarium — Agência de Marketing Digital" },
       { property: "og:description", content: "Transformamos cliques em clientes. Estratégias de tráfego pago, SEO, social media, branding e automação." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -29,7 +29,7 @@ function HomePage() {
     <div>
       <HeroSection
         title="Marketing digital que gera resultados reais"
-        description="Combinamos estratégia, dados e criatividade para atrair, converter e fidelizar clientes. Da primeira impressão à venda, a DMX acompanha cada passo do seu crescimento."
+        description="Combinamos estratégia, dados e criatividade para atrair, converter e fidelizar clientes. Da primeira impressão à venda, a Educarium acompanha cada passo do seu crescimento."
         primaryCta={{ label: "Solicitar proposta", to: "/contato" }}
         secondaryCta={{ label: "Ver portfólio", to: "/portfolio" }}
         image={heroHome}
@@ -91,7 +91,7 @@ function HomePage() {
               Cases que falam por si
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Resultados reais de clientes que confiaram na DMX para crescer.
+              Resultados reais de clientes que confiaram na Educarium para crescer.
             </p>
           </div>
           <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -149,7 +149,7 @@ function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Por que escolher a DMX?
+              Por que escolher a Educarium?
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
               Uma abordagem transparente, orientada a dados e focada em resultados.
@@ -201,7 +201,7 @@ function HomePage() {
             Pronto para escalar seu negócio?
           </h2>
           <p className="mt-4 text-lg text-primary-foreground/80">
-            Vamos conversar sobre como a DMX pode ajudar sua empresa a crescer de forma previsível e sustentável.
+            Vamos conversar sobre como a Educarium pode ajudar sua empresa a crescer de forma previsível e sustentável.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" variant="secondary">
