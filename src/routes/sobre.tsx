@@ -10,9 +10,9 @@ export const Route = createFileRoute("/sobre")({
   component: AboutPage,
   head: () => ({
     meta: [
-      { title: "Sobre — DMX Web Marketing" },
-      { name: "description", content: "Conheça a DMX Web Marketing: nossa história, valores, equipe e o método que usamos para transformar cliques em clientes." },
-      { property: "og:title", content: "Sobre — DMX Web Marketing" },
+      { title: "Sobre — Educarium" },
+      { name: "description", content: "Conheça a Educarium: nossa história, valores, equipe e o método que usamos para transformar cliques em clientes." },
+      { property: "og:title", content: "Sobre — Educarium" },
       { property: "og:description", content: "Nossa história, valores e equipe dedicada a transformar cliques em clientes." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/sobre" },
