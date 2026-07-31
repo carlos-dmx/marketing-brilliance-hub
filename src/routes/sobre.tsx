@@ -26,8 +26,8 @@ function AboutPage() {
     <div>
       <HeroSection
         title="Quem somos"
-        description="A DMX Web Marketing nasceu da vontade de fazer marketing digital de forma mais inteligente, humana e orientada a resultados."
-        primaryCta={{ label: "Trabalhar com a DMX", to: "/contato" }}
+        description="A Educarium nasceu da vontade de fazer marketing digital de forma mais inteligente, humana e orientada a resultados."
+        primaryCta={{ label: "Trabalhar com a Educarium", to: "/contato" }}
         image={sobreImage}
       />
 
@@ -41,7 +41,7 @@ function AboutPage() {
               </h2>
               <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
                 <p>
-                  Fundada em 2014, a DMX começou como uma pequena equipe de especialistas em mídia paga. Com o tempo, fomos reunindo talentos em SEO, conteúdo, design, automação e analytics para oferecer uma visão completa do marketing digital.
+                  Fundada em 2014, a Educarium começou como uma pequena equipe de especialistas em mídia paga. Com o tempo, fomos reunindo talentos em SEO, conteúdo, design, automação e analytics para oferecer uma visão completa do marketing digital.
                 </p>
                 <p>
                   Hoje atendemos empresas de diferentes portes e setores, sempre com o mesmo propósito: usar estratégia e dados para gerar crescimento real e mensurável.

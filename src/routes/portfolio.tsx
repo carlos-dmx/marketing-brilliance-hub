@@ -10,9 +10,9 @@ export const Route = createFileRoute("/portfolio")({
   component: PortfolioPage,
   head: () => ({
     meta: [
-      { title: "Portfólio — DMX Web Marketing" },
-      { name: "description", content: "Veja os cases de sucesso da DMX Web Marketing. Resultados reais em tráfego pago, SEO, social media, branding e automação." },
-      { property: "og:title", content: "Portfólio — DMX Web Marketing" },
+      { title: "Portfólio — Educarium" },
+      { name: "description", content: "Veja os cases de sucesso da Educarium. Resultados reais em tráfego pago, SEO, social media, branding e automação." },
+      { property: "og:title", content: "Portfólio — Educarium" },
       { property: "og:description", content: "Cases reais de crescimento em tráfego pago, SEO, social media e automação." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/portfolio" },
