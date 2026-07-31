@@ -26,7 +26,7 @@ function PortfolioPage() {
     <div>
       <HeroSection
         title="Resultados que provam nosso método"
-        description="Cases de clientes que cresceram com estratégias de marketing digital planejadas, executadas e otimizadas pela DMX."
+        description="Cases de clientes que cresceram com estratégias de marketing digital planejadas, executadas e otimizadas pela Educarium."
         primaryCta={{ label: "Quer um case como esse?", to: "/contato" }}
       />
 
@@ -54,7 +54,7 @@ function PortfolioPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              O impacto da DMX em números
+              O impacto da Educarium em números
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
               Resultados acumulados ao longo de anos de parceria com marcas de diferentes setores.
