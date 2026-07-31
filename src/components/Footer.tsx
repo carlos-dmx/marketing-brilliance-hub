@@ -32,10 +32,10 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2">
               <span className="font-heading text-xl font-bold tracking-tight text-foreground">
-                DMX
+                Educarium
               </span>
               <span className="font-heading text-sm font-medium text-primary">
-                Web Marketing
+                Marketing Digital
               </span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
@@ -48,7 +48,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>contato@dmxwebmarketing.com.br</span>
+                <span>contato@educarium.com.br</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-primary" />
@@ -80,7 +80,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-border pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} DMX Web Marketing. Todos os direitos reservados.
+            © {new Date().getFullYear()} Educarium. Todos os direitos reservados.
           </p>
         </div>
       </div>

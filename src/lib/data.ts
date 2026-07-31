@@ -121,7 +121,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "A DMX transformou nossa presença digital. Em poucos meses, aumentamos as vendas online e conseguimos prever melhor nossos investimentos.",
+      "A Educarium transformou nossa presença digital. Em poucos meses, aumentamos as vendas online e conseguimos prever melhor nossos investimentos.",
     author: "Ana Carolina Mendes",
     role: "Diretora de Marketing",
     company: "Loja Elegance",
